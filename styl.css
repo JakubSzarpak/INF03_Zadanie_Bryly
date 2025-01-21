@@ -1,0 +1,88 @@
+#baner {
+
+    width: 100%;
+    float: left;
+    height: 14%;
+    font-weight: bold;
+    padding-top: 1%;
+    border-bottom: 8px #ffe4e1 ridge;
+}
+
+* {
+    background-color: #2f4f4f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+#panel_lewy,#panel_prawy {
+
+    float: left;
+    width: 30%;
+    height: 85%;
+    padding-top: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#panel_srodkowy {
+
+    float: left;
+    width: 40%;
+    height: 85%;
+    padding-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#tabela {
+    margin: auto;
+    
+}
+
+tr {
+    height: 40px;
+}
+
+input {
+    height: 30px;
+    margin: 5px;
+}
+
+#oblicz {
+    color: #800000;
+    height: 50px;
+    width: 100px;
+    border: 8px #800000 ridge;
+    border-radius: 15px;
+}
+
+#przycisk1, #przycisk2, #przycisk3 {
+    
+    background-color: #ffe4e1;
+    color: #800000;
+    height: 80px;
+    width: 200px;
+    border: 8px #800000 ridge;
+    cursor: pointer;
+    border-radius: 15px;
+    float: left;
+
+
+}
+
+#oblicz:hover {
+
+    cursor: pointer;
+}
+
+label {
+    color: #800000;
+    font-weight: bold;
+}
+
